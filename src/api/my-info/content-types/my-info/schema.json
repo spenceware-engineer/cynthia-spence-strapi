@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_infos",
+  "info": {
+    "singularName": "my-info",
+    "pluralName": "my-infos",
+    "displayName": "MyInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "references": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "gitlab": {
+      "type": "string"
+    },
+    "upwork": {
+      "type": "string"
+    },
+    "hackerrank": {
+      "type": "string"
+    },
+    "calendly": {
+      "type": "string"
+    },
+    "bioIntro": {
+      "type": "text"
+    },
+    "bioCareer": {
+      "type": "text"
+    },
+    "bioPassion": {
+      "type": "text"
+    },
+    "bioNutshell": {
+      "type": "string"
+    },
+    "bioRole": {
+      "type": "string"
+    },
+    "bioExperience": {
+      "type": "string"
+    },
+    "bioShortPassions": {
+      "type": "string"
+    },
+    "bioSeeking": {
+      "type": "string"
+    },
+    "bioSignOff": {
+      "type": "text"
+    }
+  }
+}
