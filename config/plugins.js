@@ -9,7 +9,6 @@ module.exports = ({ env }) => ({
       introspection: true,
       apolloServer: {
         tracing: false,
-        introspection: true,
       },
     },
   },
