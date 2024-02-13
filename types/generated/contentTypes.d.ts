@@ -428,6 +428,7 @@ export interface ApiMyInfoMyInfo extends Schema.CollectionType {
     bioShortPassions: Attribute.String;
     bioSeeking: Attribute.String;
     bioSignOff: Attribute.Text;
+    avatar: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

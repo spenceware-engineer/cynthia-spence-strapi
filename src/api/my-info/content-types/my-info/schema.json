@@ -78,6 +78,13 @@
     },
     "bioSignOff": {
       "type": "text"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
